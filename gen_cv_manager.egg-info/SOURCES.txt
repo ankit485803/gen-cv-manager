@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+gen_cv_manager.egg-info/PKG-INFO
+gen_cv_manager.egg-info/SOURCES.txt
+gen_cv_manager.egg-info/SOURES.txt
+gen_cv_manager.egg-info/dependency_links.txt
+gen_cv_manager.egg-info/top_level.txt
+sample_MetaData/__init__.py
+sample_MetaData/main.py
+tests/__init__.py
+tests/tests_main.py

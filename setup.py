@@ -38,12 +38,17 @@ setup(
 
   # REQUIRED
     packages = find_packages(),     # Automatically discover packages
-    install_requires = ["time", sys],   # List external dependencies here if any
+    install_requires = [],   # List external dependencies here if any
 
 
   license='MIT', 
   classifiers = CLASSIFIERS,
   keywords = ["Cover Letter", "CV", "Resume", "Resume Manager", "CV Building"], 
+  url='https://github.com/ankit485803/gen-cv-manager',  # Homepage URL
+  project_urls={
+        'Documentation': 'https://github.com/ankit485803/gen-cv-manager/blob/main/README.md',
+        'Source': 'https://github.com/ankit485803/gen-cv-manager',
+    }, 
     
 )
 
