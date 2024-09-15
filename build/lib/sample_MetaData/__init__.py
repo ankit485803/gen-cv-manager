@@ -24,6 +24,13 @@ class Resume:
                 },
             ],
             "coursework": [
+                "Data Structures & Algorithms",
+                "Computer Networks",
+            ],
+            "skills": {
+                "languages": ["Python", "JavaScript"],
+                "tools": ["Git/GitHub", "VS Code"],
+            },
             "projects": [
                 {
                     "name": "ChatCoder’s Haven: A Features Rich, Multilingual Compiler with Integrated Chatbot",
