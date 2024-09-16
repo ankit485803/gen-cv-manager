@@ -5,9 +5,9 @@ import shutil  # for copying files
 
 
 # Function to modify the resume with user's input
-def create_resume(name, education_12th, education_bachelor):
+def createResume():
     # Load the template resume document
-    template_path = 'Resume_Gen/Template_Resume_YourName.docx'  # Update this path with the actual template location
+    template_path = 'resumeGenerator/Template_Resume_YourName.docx'  # Update this path with the actual template location
     doc = Document(template_path)
 
     # Export the updated resume
@@ -16,7 +16,7 @@ def create_resume(name, education_12th, education_bachelor):
 
 
     # Load the guideline PDF
-    guidelinePDF_path = 'Resume_Gen/Guidline_gen-cv-manager.pdf'
+    guidelinePDF_path = 'resumeGenerator/Guidline_gen-cv-manager.pdf'
     guidelinePDF_copy_path = os.path.join(os.getcwd(), 'Guidline_gen-cv-manager.pdf')
     
     # Copy the guideline PDF to the current working directory
@@ -51,5 +51,7 @@ if __name__ == "__main__":
     
 
 
-    # Call the function to create the resume
-    create_resume(name, education_bachelor, education_12th)
+    # final Call the function to create the resume
+    createResume()
+
+

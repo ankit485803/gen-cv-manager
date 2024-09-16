@@ -16,7 +16,7 @@ You can install `gen-cv-manager` using pip:
 pip install gen-cv-manager
 ```
 
-## Use-Cases
+## Use-Case
 
 Here’s a quick example of how to use the `gen-cv-manager` package:
 

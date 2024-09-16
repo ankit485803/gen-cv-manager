@@ -18,11 +18,14 @@ CLASSIFIERS = [
 ]
 
 
+# Read the long description from a separate file (optional but recommended for readability)
+with open('README.md', 'r', encoding='utf-8') as file:
+    LONG = file.read()
 
 # Define package details
-VERSION = '0.0.1'
-DESCRIPTION = 'gen-cv-manager'
-LONG_DESCRIPTION = "gen-cv-manager` is a Python package designed to help students and professionals create and manage their Cover Letters (CVs) and Resumes with ease. This package provides a straightforward way to generate professional-looking CVs by filling in relevant details such as education, experience, skills, and projects."
+VERSION = '0.0.2'
+DESCRIPTION = 'gen-cv-manager` is a Python package designed to help students and professionals create and manage their Cover Letters (CVs) and Resumes with ease. This package provides a straightforward way to generate professional-looking CVs by filling in relevant details such as education, experience, skills, and projects.'
+LONG_DESCRIPTION = LONG
 
 
 # Setup configuration
