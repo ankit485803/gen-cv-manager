@@ -1,7 +1,7 @@
 
 
 Name: gen-cv-manager
-Version: 0.0.2
+Version: 0.0.3
 Summary: A Python package designed to simplify the creation and management of Cover Letters (CVs) and Resumes.
 Home-page:  https://github.com/ankit485803/gen-cv-manager # Replace with actual URL if available
 Author: Ankit Kumar

@@ -9,6 +9,5 @@ gen_cv_manager.egg-info/SOURCES.txt
 gen_cv_manager.egg-info/dependency_links.txt
 gen_cv_manager.egg-info/require.txt
 gen_cv_manager.egg-info/top_level.txt
-resumeGenerator/createResume.py
+resumeGenerator/__init__.py
 sample_MetaData/__init__.py
-sample_MetaData/main.py

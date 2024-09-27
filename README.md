@@ -1,6 +1,3 @@
- 
-
-
 
 
 # gen-cv-manager
@@ -21,17 +18,20 @@ pip install gen-cv-manager
 Here’s a quick example of how to use the `gen-cv-manager` package:
 
 ```python
-from gen_cv_manager import Resume
+!pip install gen-cv-manager==0.0.3
 
-# Create an instance of Resume
-resume = Resume()
+# Import the module
+import gen_cv_manager as g
 
-# Get resume data
-data = resume.get_resume_data()
+# Call the createResume function
+from g.resumeGenerator import createResume
 
-# Display resume in the command line
-resume.display_resume_cli()
+# Now you can use the createResume function
+createResume()  
+
 ```
+
+
 
 This will display your resume data in the command line. The package is designed for easy customization, and future versions will include additional features such as exporting to various formats and enhanced customization options.
 

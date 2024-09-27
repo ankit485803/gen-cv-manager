@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: gen-cv-manager
-Version: 0.0.2
+Version: 0.0.3
 Summary: gen-cv-manager` is a Python package designed to help students and professionals create and manage their Cover Letters (CVs) and Resumes with ease. This package provides a straightforward way to generate professional-looking CVs by filling in relevant details such as education, experience, skills, and projects.
 Home-page: https://github.com/ankit485803/gen-cv-manager
 Author: Ankit Kumar
@@ -16,9 +16,6 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 Description-Content-Type: text/markdown
 License-File: LICENSE
-
- 
-
 
 
 
@@ -40,17 +37,20 @@ pip install gen-cv-manager
 Here’s a quick example of how to use the `gen-cv-manager` package:
 
 ```python
-from gen_cv_manager import Resume
+!pip install gen-cv-manager==0.0.3
 
-# Create an instance of Resume
-resume = Resume()
+# Import the module
+import gen_cv_manager as g
 
-# Get resume data
-data = resume.get_resume_data()
+# Call the createResume function
+from g.resumeGenerator import createResume
 
-# Display resume in the command line
-resume.display_resume_cli()
+# Now you can use the createResume function
+createResume()  
+
 ```
+
+
 
 This will display your resume data in the command line. The package is designed for easy customization, and future versions will include additional features such as exporting to various formats and enhanced customization options.
 
