@@ -23,7 +23,7 @@ with open('README.md', 'r', encoding='utf-8') as file:
     LONG = file.read()
 
 # Define package details
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = 'gen-cv-manager` is a Python package designed to help students and professionals create and manage their Cover Letters (CVs) and Resumes with ease. This package provides a straightforward way to generate professional-looking CVs by filling in relevant details such as education, experience, skills, and projects.'
 LONG_DESCRIPTION = LONG
 
@@ -41,7 +41,7 @@ setup(
 
   # REQUIRED
     packages = find_packages(),     # Automatically discover packages
-    install_requires = [os, docx, PyPDF2, shruti],   # List external dependencies 
+    install_requires = [],   # List external dependencies 
 
     include_package_data=True,  # Ensure non-Python files are included
     package_data={

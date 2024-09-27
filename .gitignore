@@ -1,10 +1,7 @@
 
-build
 
-# this folder shold not push to github, we can directly create after running the command
-# python setup.py sdist bdist_wheel
 
-dist
+
 
 # this is password file
 .env
