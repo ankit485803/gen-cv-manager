@@ -1,3 +1,5 @@
 
 
 global-include *.txt *.py
+
+include resumeGenerator/Template_Resume_YourName.docx

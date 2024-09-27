@@ -13,6 +13,17 @@ You can install `gen-cv-manager` using pip:
 pip install gen-cv-manager
 ```
 
+### Setup .env
+```
+!pip install python-docx
+!pip install PyPDF2
+
+import os
+from docx import Document
+from PyPDF2 import PdfReader  
+import shutil   
+```
+
 ## Use-Case
 
 Here’s a quick example of how to use the `gen-cv-manager` package:

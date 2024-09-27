@@ -41,7 +41,12 @@ setup(
 
   # REQUIRED
     packages = find_packages(),     # Automatically discover packages
-    install_requires = [],   # List external dependencies here if any
+    install_requires = [os, docx, PyPDF2, shruti],   # List external dependencies 
+
+    include_package_data=True,  # Ensure non-Python files are included
+    package_data={
+        'resumeGenerator': ['Template_Resume_YourName.docx'],  # Specify the path to your template file
+    },
 
 
   license='MIT', 
